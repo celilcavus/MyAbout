@@ -1,0 +1,108 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Lato", sans-serif;
+   font-family: "Roboto", sans-serif;
+}
+html{
+   font-size: 1rem;
+}
+body{
+   width: 100%;
+   height: 100vh;
+   background: #EB5757;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+li{
+   list-style: none;
+}
+.container{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 6rem;
+   
+}
+.image{
+   width: 100%;
+   height: 50%;
+ 
+   p{ 
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;   
+      top: 0;
+      position: absolute;
+      
+      font-weight: 400;
+      i{
+         color: white;
+         background-color: transparent;
+         padding: 15px;
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+   }
+}
+
+
+.cards {
+   width: 350px;
+   height: 400px;
+   color: white;
+   text-align: center;
+   padding: 25px 10px 10px 25px;
+   margin: 0 20px 0 20px;
+   font-weight: 100;
+   
+   opacity: 0.9;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+ }
+ .cards:hover{
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   cursor: pointer;
+   transition: all 0.2s ease;
+ }
+ .cards h1 {
+   font-weight: 500;
+ }
+ .cards a {
+   color: white;
+   
+   text-transform: uppercase;
+   text-decoration: none;
+   letter-spacing: 2px;
+ }
+ .cards a:hover {
+   color: black;
+   border-bottom: 1px solid white;
+ }
+ .cards li {
+   margin-top: 1.5rem;
+ }
+ .cards p {
+   text-transform: capitalize;
+   font-variant: 10px;
+   line-height: 35px;
+   padding: 0 10px 0 10px;
+ }
+ .cards i {
+   font-size: 2.2rem;
+   margin-bottom: 20px;
+ }
+ 
+ .card-1 {
+   // background-color: #EB5757;
+   background-color: transparent;
+ }
+
+ footer{
+   // border-top:  1px solid black;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+ }
+ 
